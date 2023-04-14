@@ -1,0 +1,114 @@
+/*------------------General-----------------------*/
+body{
+    min-height: 100vh;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+}
+
+.imgicono {
+  width: 20px;
+  height: 20px;
+}
+
+.imgcarrusel {
+  height: 200px;
+}
+
+@media screen and (max-width: 332px) {
+
+  .imgcarrusel {
+    height: 230px;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/*------------------Home & Events-----------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.seemore{
+    box-shadow: -4px -2px 15px 1px #000000;
+}
+
+.containercards {
+  width: 90%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 30px; 
+}
+
+.containercards .swiper {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.containercards .swiper-slide {
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+
+.containercards .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.swiper-button-next {
+  --swiper-navigation-size: 35px;
+  --swiper-navigation-color: #ffffff;
+  background-color: black;
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0.6;
+  
+  
+}
+
+.containercards .swiper-button-prev {
+--swiper-navigation-size: 35px;
+--swiper-navigation-color: #ffffff;
+background-color: black;
+border-radius: 10px 0px 0px 10px;
+opacity: 0.6;
+
+
+}
+
+
+/*------------------Contact-----------------------*/
+
+.formcontact{
+    width: 60%;
+}
+
+/*------------------Detail-----------------------*/
+
+.sombradetails {
+  box-shadow: -4px -2px 15px 1px #000000;
+}
+
+.imgdetail{
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+/*------------------Stats-----------------------*/
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;vertical-align:top; background-color: gray;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
